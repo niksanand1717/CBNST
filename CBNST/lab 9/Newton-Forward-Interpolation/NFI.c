@@ -40,8 +40,8 @@ int main(int argc, char const *argv[])
   for(j = 2; j <= x_size; j++)
   {
     y = y + (p1 * (arr[0][j]))/factorial;
-    p1 = (p * (p - (i -1)));
-    factorial = factorial * i;
+    p1 = (p * (p - (j -1)));
+    factorial = factorial * j;
   }
 
   printf("Value of Y at X = %f is : %f\n", x, y);
